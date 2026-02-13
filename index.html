@@ -4,28 +4,71 @@
   <meta charset="UTF-8" />
   <title>Demo Automation Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Zoho SalesIQ Script -->
+  <script>
+    window.$zoho=window.$zoho || {};
+    $zoho.salesiq=$zoho.salesiq||{ready:function(){}}
+  </script>
+  <script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq4859429add1ab9a977a1cde0feba0b507c8af5dc910b65994d3ca2da05370e61" defer></script>
+
 </head>
-  <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siq4859429add1ab9a977a1cde0feba0b507c8af5dc910b65994d3ca2da05370e61" defer></script>
+
 <body>
 
-  <h1>Demo Automation Solutions</h1>
-  <p>Proof of Concept website to demonstrate Zoho One integrations.</p>
+  <!-- HEADER -->
+  <header>
+    <h1>Demo Automation Solutions</h1>
+    <p>Smart Automation powered by Zoho One</p>
+  </header>
 
+  <!-- NAVBAR -->
   <nav>
-    <a href="index.html">Home</a> |
-    <a href="products.html">Products</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="careers.html">Careers</a> |
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="careers.html">Careers</a>
     <a href="support.html">Support</a>
   </nav>
 
-  <hr />
+  <!-- MAIN CONTENT -->
+  <div class="container">
 
-  <h2>Welcome</h2>
-  <p>
-    This dummy website is used to test Zoho Forms, Zoho CRM, Zoho Desk,
-    Zoho SalesIQ, and Zoho Analytics integrations.
-  </p>
+    <div class="card">
+      <h2>Welcome</h2>
+      <p>
+        This website demonstrates integration of Zoho One services including CRM,
+        Forms, Desk, and SalesIQ for a complete business automation solution.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>What We Offer</h2>
+      <ul>
+        <li>PLC Automation Solutions</li>
+        <li>SCADA Integration</li>
+        <li>Industrial IoT Systems</li>
+        <li>Energy Monitoring</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Our System</h2>
+      <p>
+        All website interactions such as leads, support requests, and visitor tracking
+        are integrated with Zoho One for centralized management.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Demo Automation Solutions</p>
+  </footer>
 
 </body>
 </html>
